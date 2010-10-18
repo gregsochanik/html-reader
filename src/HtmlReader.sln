@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReader", "HtmlReader\HtmlReader.csproj", "{574A95B2-5939-4641-9180-6F578A96D9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReaderConsole", "HtmlReaderConsole\HtmlReaderConsole.csproj", "{3397B4CE-70CE-469E-B1E0-087C1C3FFB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReaderTest", "HtmlReaderTest\HtmlReaderTest.csproj", "{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574A95B2-5939-4641-9180-6F578A96D9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574A95B2-5939-4641-9180-6F578A96D9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574A95B2-5939-4641-9180-6F578A96D9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574A95B2-5939-4641-9180-6F578A96D9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3397B4CE-70CE-469E-B1E0-087C1C3FFB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3397B4CE-70CE-469E-B1E0-087C1C3FFB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3397B4CE-70CE-469E-B1E0-087C1C3FFB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3397B4CE-70CE-469E-B1E0-087C1C3FFB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

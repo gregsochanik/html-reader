@@ -1,0 +1,8 @@
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\obj\Debug\ResolveAssemblyReference.cache
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\HtmlReader.dll
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\HtmlReader.pdb
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\Fizzler.dll
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\obj\Debug\HtmlReader.dll
+F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\obj\Debug\HtmlReader.pdb
