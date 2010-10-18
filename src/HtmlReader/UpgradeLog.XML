@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
-<Properties><Property Name="Solution" Value="HtmlReader">
-</Property><Property Name="Solution File" Value="F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\HtmlReader.sln">
-</Property><Property Name="Date" Value="18 October 2010">
-</Property><Property Name="Time" Value="08:35:42">
-</Property></Properties><Event ErrorLevel="0" Project="HtmlReader" Source="HtmlReader.csproj" Description="Project converted successfully">
-</Event><Event ErrorLevel="3" Project="HtmlReader" Source="HtmlReader.csproj" Description="Converted">
-</Event><Event ErrorLevel="0" Project="HtmlReader" Source="HtmlReader.csproj" Description="Scan complete: Upgrade not required for project files.">
-</Event></UpgradeLog>
