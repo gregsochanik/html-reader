@@ -8,3 +8,13 @@ F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderConsole\bin\Debug
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderConsole\bin\Debug\HtmlReader.pdb
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.exe
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReaderConsole.exe
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReaderConsole.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReader.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\Fizzler.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.exe
+C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.pdb
