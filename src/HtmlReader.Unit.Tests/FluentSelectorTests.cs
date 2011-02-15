@@ -1,7 +1,8 @@
-﻿using System;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Fizzler.Systems.HtmlAgilityPack;
+using System.Xml;
+using System.Xml.Linq;
 using HtmlAgilityPack;
 using HtmlReader.Fizzler;
 using NUnit.Framework;
@@ -32,7 +33,7 @@ namespace HtmlReader.Unit.Tests {
 		}
 
 		[Test]
-		public void Can_build_all_html_elements( ) {
+		public void Can_build_all_html_elements() {
 
 			IEnumerable<HtmlNode> htmlNodes = new FluentHtmlSelector(_htmlLoader)
 													.Build();

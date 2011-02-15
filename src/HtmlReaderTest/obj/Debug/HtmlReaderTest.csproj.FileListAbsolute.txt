@@ -34,3 +34,5 @@ F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\ResolveAssemblyReference.cache
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.dll
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlAgilityPack.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlAgilityPack.xml

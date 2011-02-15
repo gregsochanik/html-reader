@@ -1,0 +1,46 @@
+== Introduction ==
+
+I only had a day for this one so I decided to attempt something quick and easy. I decided to use HtmlAgility and the extensions offered by Fizzler to attempt to scrape results from the British Horse Racing Website, so I can ultimately stash them in a Solr index or similar.
+
+== HtmlAgility and Fizzler ==
+
+[http://htmlagilitypack.codeplex.com/ HtmlAgility] is a very useful library that allows an IXPathNavigable Xml interface around an XHTML DOM, which in turn allows you to treat data pulled from a web page as you would normal XML, including using XPath to access particular nodes. It also is very tolerant of malformed XML which makes it good for webscraping.
+
+[http://code.google.com/p/fizzler/ Fizzler] adds Extension methods to HtmlAgilities HtmlNode class (an implementation of the .NET IXpathNavigable). These methods give you the ability (among other things) to select IEnumerables of HtmlNode objects based on CSS 3.0 selectors. 
+
+Within HtmlAgility, a document is loaded into a concrete HtmlDocument in a similar way to XmlDocument:
+ 
+ var html = new HtmlDocument();
+ html.LoadHtml(myHtmlString);
+
+You can then access the nodes within the current DocumentNode property with methods and Properties that will be familiar with anyone who has used the .NET System.Xml XmlDocument.
+
+Fizzler adds a few extension methods that return IEnumerable<HtmlNode>, e.g. Descendants(), NodesAfterSelf() etc, but the interesting ones are the QuerySelector methods that allow the use of CSS Selectors:
+
+ html.DocumentNode.QuerySelectorAll("p.selected")
+
+which returns an IEnumerable of HtmlNodes that match the above CSS selector criteria (e.g. a list of &lt;p&gt; tags with a class="selected" attribute), and
+
+ html.DocumentNode.QuerySelector("div#myDiv")
+
+which returns a single HtmlNode matching the specified CSS selector.
+
+== Morning == 
+
+I spent the morning playing about with Fizzler, writing tests to see what it could do. I really like the idea of being able to select nodes using CSS selectors so had a fiddle around to see which ones were supported by comparing them with the [http://tools.css3.info/selectors-test/test.html CSS 3 Selectors]. Turns out they aren't all supported, 
+:first-child and :nth-child(index) are supported , but nth-last-of-type(index) and :first-letter are not.
+
+I then began attempting to implement them in
+
+== Fluent HtmlSelector == 
+
+== Adding History ==
+
+== Issues with Fizzler Extensions ==
+
+Because they are extension methods, the Fizzler methods are tricky to stub within a unit test, so it made unit testing code that consumes these methods tricky. Injecting a stubbed collaborator was not really an option, and also, due to time constraints, I stopped unit test driving the actual web scraping portion, opting more for a higher level Acceptance test to drive development.
+
+== To do list ==
+Supporting Linq to Xml XElements 
+
+== Further reading ==

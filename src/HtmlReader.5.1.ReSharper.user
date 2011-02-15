@@ -3,18 +3,43 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:Fizzler/f:FizzlerTest.cs" caret="256" fromTop="10" />
-      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/f:SelectorBaseTest.cs" caret="0" fromTop="0" />
-      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:ReaderTest.cs" caret="2916" fromTop="32" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaders/f:BritishHorseRacingWebReader.cs" caret="1641" fromTop="9" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/f:HtmlReaderBase.cs" caret="88" fromTop="4" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:HtmlLoaderTests.cs" caret="376" fromTop="14" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="1015" fromTop="22" />
+      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Fizzler/f:IHtmlSelector.cs" caret="312" fromTop="13" />
+      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Fizzler/f:FluentHtmlSelector.cs" caret="1493" fromTop="16" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="9370" fromTop="4" />
     </RecentFiles>
-    <RecentEdits />
+    <RecentEdits>
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="8570" fromTop="38" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="803" fromTop="18" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="8022" fromTop="30" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="598" fromTop="18" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="8549" fromTop="28" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="8987" fromTop="32" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="2061" fromTop="20" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="4834" fromTop="42" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="4179" fromTop="34" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="3454" fromTop="26" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="4465" fromTop="35" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="3249" fromTop="21" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="3093" fromTop="9" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="2992" fromTop="25" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="4052" fromTop="34" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="68" fromTop="2" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="218" fromTop="8" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="80" fromTop="1" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="9963" fromTop="40" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="9963" fromTop="30" />
+      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Fizzler/f:FluentHtmlSelector.cs" caret="1528" fromTop="26" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="7876" fromTop="32" />
+      <File id="743E6407-390E-472E-AF1D-4D995452B79D/f:FluentSelectorTests.cs" caret="9963" fromTop="19" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -23,7 +48,204 @@
     <Providers />
   </UnitTestRunner>
   <UnitTestRunnerNUnit>
-    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="return" priority="7" />
+      <Item value="public" priority="20" />
+      <Item value="class" priority="5" />
+      <Item value="IHtmlSelector`0" priority="6" />
+      <Item value="string" priority="10" />
+      <Item value="this" priority="1" />
+      <Item value="htmlList" priority="2" />
+      <Item value="foreach" priority="5" />
+      <Item value="_document" priority="8" />
+      <Item value="new" priority="24" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="htmlNode" priority="1" />
+      <Item value="sb" priority="1" />
+      <Item value="Uri`0" priority="2" />
+      <Item value="void" priority="6" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="FluentSelector`0" priority="1" />
+      <Item value="HtmlDocument" priority="1" />
+      <Item value="htmlDocument" priority="4" />
+      <Item value="Assert`0" priority="4" />
+      <Item value="Is`0" priority="4" />
+      <Item value="test" priority="2" />
+      <Item value="HttpStyleUriParser`0" priority="0" />
+      <Item value="HtmlNode`0" priority="2" />
+      <Item value="currentNode" priority="1" />
+      <Item value="Uri" priority="2" />
+      <Item value="selectorChain" priority="2" />
+      <Item value="if" priority="3" />
+      <Item value="htmlAttribute" priority="0" />
+      <Item value="throw" priority="1" />
+      <Item value="ArgumentException" priority="1" />
+      <Item value="HtmlSelector`0" priority="0" />
+      <Item value="HtmlDocument`0" priority="3" />
+      <Item value="FluentHtmlSelector`0" priority="1" />
+      <Item value="fluentHtmlSelector" priority="1" />
+      <Item value="private" priority="5" />
+      <Item value="readonly" priority="0" />
+      <Item value="_selector" priority="7" />
+      <Item value="null" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="MockRepository`0" priority="0" />
+      <Item value="IHtmlLoader`0" priority="2" />
+      <Item value="HtmlLoader" priority="0" />
+      <Item value="HTML" priority="1" />
+      <Item value="htmlLoader" priority="0" />
+      <Item value="TestFixtureSetUpAttribute`0" priority="0" />
+      <Item value="SetUpAttribute`0" priority="0" />
+      <Item value="HTML_WITH_LINK" priority="1" />
+      <Item value="_htmlLoader" priority="0" />
+      <Item value="BritishHorseracingWebReader`0" priority="0" />
+      <Item value="Category" priority="0" />
+      <Item value="HtmlLoader`0" priority="0" />
+      <Item value="RESULTS_PAGE_FOLDER" priority="0" />
+      <Item value="britishHorseracingWebReader" priority="0" />
+      <Item value="enumerable" priority="0" />
+      <Item value="BaseUrl" priority="0" />
+      <Item value="BASE_URL" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="int" priority="3" />
+      <Item value="Stack" priority="0" />
+      <Item value="_history" priority="2" />
+      <Item value="Stack&lt;HtmlDocument&gt;" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="JockeyName" priority="0" />
+      <Item value="jockey" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="Numerator" priority="4" />
+      <Item value="Denominator" priority="3" />
+      <Item value="Price`0" priority="3" />
+      <Item value="formattedPrice" priority="1" />
+      <Item value="char" priority="1" />
+      <Item value="None" priority="0" />
+      <Item value="strings" priority="1" />
+      <Item value="Count`1" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="DecimalPrice" priority="1" />
+      <Item value="startingPrice" priority="0" />
+      <Item value="StartingPriceDecimal" priority="0" />
+      <Item value="price" priority="2" />
+      <Item value="StartingPriceDenominator" priority="0" />
+      <Item value="StartingPriceNumerator" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="Price" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="XElement`0" priority="0" />
+      <Item value="XDocument`0" priority="0" />
+      <Item value="XDocument" priority="0" />
+      <Item value="doc" priority="1" />
+      <Item value="XNode`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Join`0" priority="0" />
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToArray`1" priority="0" />
+      <Item value="Elements`0" priority="0" />
+      <Item value="ElementAt`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlNode">
+      <Item value="InnerHtml" priority="5" />
+      <Item value="DescendantsAndSelf`0" priority="1" />
+      <Item value="InnerText" priority="1" />
+      <Item value="QuerySelector`0" priority="0" />
+      <Item value="Attributes" priority="1" />
+      <Item value="ElementsAfterSelf`0" priority="0" />
+      <Item value="Elements`0" priority="0" />
+      <Item value="OuterHtml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlDocument">
+      <Item value="LoadHtml`0" priority="5" />
+      <Item value="DocumentNode" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="ToString`0" priority="1" />
+      <Item value="Append`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReader.Fizzler.FluentSelector">
+      <Item value="Build`0" priority="0" />
+      <Item value="Select`0" priority="0" />
+      <Item value="SelectLink`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="Not" priority="2" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="EqualTo`0" priority="1" />
+      <Item value="GreaterThan`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReader.Fizzler.IHtmlSelector">
+      <Item value="Select`0" priority="8" />
+      <Item value="CurrentNode`0" priority="1" />
+      <Item value="Build`0" priority="3" />
+      <Item value="ClickLink`0" priority="1" />
+      <Item value="GoBack`0" priority="0" />
+      <Item value="SelectNodes`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReader.Fizzler.FluentHtmlSelector">
+      <Item value="Select`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateStub`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReader.Fizzler.IHtmlLoader">
+      <Item value="Load`0" priority="2" />
+      <Item value="Stub`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReaderTest.HtmlReaders.BritishHorseracingWebReader">
+      <Item value="GetResults`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlAttribute">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Stack`1">
+      <Item value="Push`0" priority="0" />
+      <Item value="Pop`0" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+      <Item value="Trim`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlReaderTest.HtmlReaders.Price">
+      <Item value="DecimalPrice" priority="0" />
+      <Item value="Denominator" priority="0" />
+      <Item value="Numerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XElement">
+      <Item value="ReadFrom`0" priority="1" />
+      <Item value="Load`0" priority="0" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.XmlReader">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XNode">
+      <Item value="ReadFrom`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

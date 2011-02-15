@@ -23,3 +23,5 @@ F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReader\bin\Debug\HtmlAgilityPack
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReader\obj\Debug\ResolveAssemblyReference.cache
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReader\obj\Debug\HtmlReader.dll
 F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReader\obj\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\HtmlAgilityPack.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\HtmlAgilityPack.xml

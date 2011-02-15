@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
-using HtmlReader.Exceptions;
 using HtmlReader.Fizzler;
 using NUnit.Framework;
-using Rhino.Mocks;
 
 namespace HtmlReaderTest.HtmlReaders
 {
@@ -62,7 +58,9 @@ namespace HtmlReaderTest.HtmlReaders
 					IEnumerable<HtmlNode> results = _selector
 						.SelectNodes("tr").Skip(2);
 
-					_currentCourse = _selector.SelectNodes("b").ElementAt(1).InnerHtml;
+					_currentCourse = _selector.SelectNodes("b")
+										.ElementAt(1)
+										.InnerHtml;
 
 					// from results build ResultList))
 					foreach (var result in results)
@@ -89,6 +87,7 @@ namespace HtmlReaderTest.HtmlReaders
 			string name = allResults.ElementAt(1).QuerySelector("b").InnerText;
 			string jockey = allResults.ElementAt(2).QuerySelector("b").InnerText;
 			string startingPrice = allResults.ElementAt(3).QuerySelector("b").InnerText.Trim();
+
 			var price = new Price{DecimalPrice = 0,Denominator=0,Numerator = 0};
 			try {
 				price = new Price(startingPrice);
