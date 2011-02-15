@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using HtmlReader.HtmlReaders;
 
 namespace HtmlReaderConsole
 {
@@ -10,10 +9,6 @@ namespace HtmlReaderConsole
     {
         static void Main(string[] args)
         {
-            BritishHorseRacingWebReader reader = new BritishHorseRacingWebReader();
-
-            reader.ReadResults();
-
         }
     }
 }

@@ -77,5 +77,25 @@ namespace HtmlReader.Unit.Tests {
 			Assert.That(title, Is.EqualTo("Google"));
 		}
 
+		[Test]
+		public void Can_add_history()
+		{
+			var stringHtmlLoader = new StringHtmlLoader(HTML_WITH_LINK);
+
+			IHtmlSelector htmlSelector = new FluentHtmlSelector(stringHtmlLoader);
+			Assert.That(htmlSelector.CurrentNode().OuterHtml, Is.EqualTo(HTML_WITH_LINK));
+
+			htmlSelector.ClickLink("a[id='googleLink']");
+			Assert.That(htmlSelector.CurrentNode().OuterHtml, Is.Not.EqualTo(HTML_WITH_LINK));
+
+			htmlSelector.GoBack();
+			Assert.That(htmlSelector.CurrentNode().OuterHtml, Is.EqualTo(HTML_WITH_LINK));
+
+			htmlSelector.ClickLink("a[id='googleLink']");
+			Assert.That(htmlSelector.CurrentNode().OuterHtml, Is.Not.EqualTo(HTML_WITH_LINK));
+
+			htmlSelector.GoBack();
+			Assert.That(htmlSelector.CurrentNode().OuterHtml, Is.EqualTo(HTML_WITH_LINK));
+		}
 	}
 }

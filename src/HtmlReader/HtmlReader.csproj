@@ -86,13 +86,7 @@
     <Compile Include="Fizzler\IFileLoader.cs" />
     <Compile Include="Fizzler\IHtmlLoader.cs" />
     <Compile Include="Fizzler\ISelector.cs" />
-    <Compile Include="HtmlReaderBase.cs" />
-    <Compile Include="HtmlReaderResults\BritishHorseRacingHtmlReaderResult.cs" />
-    <Compile Include="HtmlReaderResults\ItemHtmlSelectorAttribute.cs" />
-    <Compile Include="IHtmlReader.cs" />
-    <Compile Include="IHtmlReaderResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HtmlReaders\BritishHorseRacingWebReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

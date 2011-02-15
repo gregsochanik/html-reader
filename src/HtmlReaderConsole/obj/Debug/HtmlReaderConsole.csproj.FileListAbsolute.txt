@@ -18,3 +18,13 @@ C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReader
 C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\ResolveAssemblyReference.cache
 C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.exe
 C:\innovationtime\february\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.exe
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\obj\Debug\HtmlReaderConsole.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReaderConsole.exe
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReaderConsole.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReader.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\Fizzler.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\bin\Debug\HtmlReader.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderConsole\obj\Debug\ResolveAssemblyReference.cache

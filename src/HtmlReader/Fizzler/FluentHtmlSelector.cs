@@ -9,11 +9,11 @@ namespace HtmlReader.Fizzler
 {
 	public class FluentHtmlSelector : IHtmlSelector
 	{
-		private HtmlDocument _document;
+		private readonly HtmlDocument _document;
 		
 		public FluentHtmlSelector(IHtmlLoader htmlLoader) {
 			_document = new HtmlDocument();
-			LoadHtml(htmlLoader.Load());
+			_document.LoadHtml(htmlLoader.Load());
 		}
 
 		public string BaseUrl { get; set; }
@@ -23,19 +23,21 @@ namespace HtmlReader.Fizzler
 			if(htmlList == null)
 				throw new ArgumentException(string.Format("{0}: This doesn't seem to be a valid selector, it has resulted in zero nodes found", selectorChain));
 
-			LoadHtml(htmlList.OuterHtml);
+			_document.LoadHtml(htmlList.OuterHtml);
 			return this;
 		}
 
-		public IHtmlSelector ClickLink(string selectorChain) {
-			HtmlAttribute htmlAttribute = _document.DocumentNode.QuerySelector(selectorChain).Attributes["href"];
-			if(htmlAttribute == null)
+		public IHtmlSelector ClickLink(string selectorChain){
+			_history.Push(_document.DocumentNode);
+
+			if (_document.DocumentNode.QuerySelector(selectorChain) == null)
 				throw new ArgumentException(string.Format("{0}This doesn't seem to be a valid link, has no href attribute", selectorChain));
+			HtmlAttribute htmlAttribute = _document.DocumentNode.QuerySelector(selectorChain).Attributes["href"];
 
 			var link = new Uri(BaseUrl + htmlAttribute.Value);
 			var webclient = new WebClient();
 			string html = webclient.DownloadString(link);
-			LoadHtml(html);
+			_document.LoadHtml(html);
 			return this;
 		}
 
@@ -56,15 +58,10 @@ namespace HtmlReader.Fizzler
 			return _document.DocumentNode;
 		}
 
-		private void LoadHtml(string html) {
-			_history.Push(_document);
-			_document.LoadHtml(html);
-		}
-
-		private Stack<HtmlDocument> _history = new Stack<HtmlDocument>();
+		private Stack<HtmlNode> _history = new Stack<HtmlNode>();
 
 		public IHtmlSelector GoBack() {
-			_document = _history.Pop();
+			_document.LoadHtml(_history.Pop().OuterHtml);
 			return this;
 		}
 	}

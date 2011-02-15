@@ -8,17 +8,13 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaderResults/f:ItemHtmlSelectorAttribute.cs" caret="0" fromTop="0" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Exceptions/f:HtmlReaderException.cs" caret="549" fromTop="18" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Fizzler/f:HtmlSelector.cs" caret="904" fromTop="23" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaders/f:BritishHorseRacingWebReader.cs" caret="874" fromTop="22" />
-      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:BritishHorseRacingWebReaderTest.cs" caret="614" fromTop="20" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:Fizzler/f:FizzlerTest.cs" caret="256" fromTop="10" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/f:SelectorBaseTest.cs" caret="0" fromTop="0" />
+      <File id="F39CB3B8-76AF-4E06-81A7-B0D2321D70FC/d:HtmlReaders/f:ReaderTest.cs" caret="2916" fromTop="32" />
+      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaders/f:BritishHorseRacingWebReader.cs" caret="1641" fromTop="9" />
+      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/f:HtmlReaderBase.cs" caret="88" fromTop="4" />
     </RecentFiles>
-    <RecentEdits>
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:Fizzler/f:HtmlSelector.cs" caret="140" fromTop="6" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaders/f:BritishHorseRacingWebReader.cs" caret="1009" fromTop="23" />
-      <File id="574A95B2-5939-4641-9180-6F578A96D9F3/d:HtmlReaders/f:BritishHorseRacingWebReader.cs" caret="4605" fromTop="16" />
-    </RecentEdits>
+    <RecentEdits />
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -27,8 +23,7 @@
     <Providers />
   </UnitTestRunner>
   <UnitTestRunnerNUnit>
-    <NUnitInstallDir IsNull="False">
-    </NUnitInstallDir>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
 </Configuration>

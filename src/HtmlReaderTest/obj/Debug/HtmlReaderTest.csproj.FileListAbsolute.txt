@@ -21,3 +21,16 @@ C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\nunit.framewo
 C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReader.pdb
 C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.dll
 C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.xml
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReaderTest.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReaderTest.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\Fizzler.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlAgilityPack.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReader.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\nunit.framework.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReader.pdb
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.xml
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.dll
+F:\Users\Greg\Documents\WORK\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.pdb
