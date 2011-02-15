@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReaderConsole", "HtmlRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReaderTest", "HtmlReaderTest\HtmlReaderTest.csproj", "{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlReader.Unit.Tests", "HtmlReader.Unit.Tests\HtmlReader.Unit.Tests.csproj", "{743E6407-390E-472E-AF1D-4D995452B79D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F39CB3B8-76AF-4E06-81A7-B0D2321D70FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743E6407-390E-472E-AF1D-4D995452B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743E6407-390E-472E-AF1D-4D995452B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743E6407-390E-472E-AF1D-4D995452B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743E6407-390E-472E-AF1D-4D995452B79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

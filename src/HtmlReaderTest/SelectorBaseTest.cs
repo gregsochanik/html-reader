@@ -8,14 +8,12 @@ namespace HtmlReaderTest
 {
     public abstract class SelectorBaseTest
     {
-        private const string Html = "@<html><head></head><body><div><p class='content'>Fizzler</p><p>CSS Selector Engine</p></div></body></html>";
+        private const string HTML = "@<html><head></head><body><div><p class='content'>Fizzler</p><p>CSS Selector Engine</p></div></body></html>";
 
         protected SelectorBaseTest()
         {
-            string html = Html;
             var document = new HtmlDocument();
-            document.LoadHtml(html);
-            Document = document;
+			document.LoadHtml(HTML);
         }
 
         protected HtmlDocument Document { get; private set; }

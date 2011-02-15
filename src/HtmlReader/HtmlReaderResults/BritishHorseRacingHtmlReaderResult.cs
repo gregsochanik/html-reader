@@ -39,95 +39,96 @@ namespace HtmlReader.HtmlReaderResults
         /// </summary>
         /// <param name="html"></param>
         /// <returns></returns>
-        public List<BritishHorseRacingHtmlReaderResult> FillResults(string html)
-        {
-            var htmlString = new StringBuilder(html);
-            var selector = new HtmlSelector(htmlString);
+        public List<BritishHorseRacingHtmlReaderResult> FillResults(string html) {
+        	return null;
 
-            var results = new List<BritishHorseRacingHtmlReaderResult>();
+        	//var htmlString = new StringBuilder(html);
+        	//var selector = new HtmlSelector(htmlString);
 
-            // Event Date
-            var datePattern = new Regex(@"\d{2}\s[A-z]{3,10}\s\d{4},\s\d{2}:\d{2}");
-            string date = datePattern.Match(selector.Html).Value;
-            DateTime eventStartTime = Convert.ToDateTime(date);
+        	//var results = new List<BritishHorseRacingHtmlReaderResult>();
 
-            // COurseName and Event Name
-            IList<HtmlNode> courseandeventnameNodes = selector.SelectList("b");
-            HtmlNode node = courseandeventnameNodes[1];
-            string[] courseSplit = node.InnerHtml.Split(new[] { "<br>\r\n" }, StringSplitOptions.None);
-            string courseName = courseSplit[0];
-            string eventName = courseSplit[1];
+        	//// Event Date
+        	//var datePattern = new Regex(@"\d{2}\s[A-z]{3,10}\s\d{4},\s\d{2}:\d{2}");
+        	//string date = datePattern.Match(selector.Html).Value;
+        	//DateTime eventStartTime = Convert.ToDateTime(date);
 
-            // Weather
-            string[] linelist = selector.Html.Split(new[] { "<br>\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-            string weather = linelist.Where(l => l.Contains("Weather:"))
-                                     .Select(l => l.Replace("Weather:", ""))
-                                     .DefaultIfEmpty("None")
-                                     .First();
+        	//// COurseName and Event Name
+        	//IList<HtmlNode> courseandeventnameNodes = selector.SelectList("b");
+        	//HtmlNode node = courseandeventnameNodes[1];
+        	//string[] courseSplit = node.InnerHtml.Split(new[] { "<br>\r\n" }, StringSplitOptions.None);
+        	//string courseName = courseSplit[0];
+        	//string eventName = courseSplit[1];
 
-            // Going
-            string going = linelist.Where(l => l.Contains("Going:"))
-                                    .Select(l => l.Replace("Going:", ""))
-                                    .DefaultIfEmpty("None")
-                                    .First();
+        	//// Weather
+        	//string[] linelist = selector.Html.Split(new[] { "<br>\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+        	//string weather = linelist.Where(l => l.Contains("Weather:"))
+        	//                         .Select(l => l.Replace("Weather:", ""))
+        	//                         .DefaultIfEmpty("None")
+        	//                         .First();
+
+        	//// Going
+        	//string going = linelist.Where(l => l.Contains("Going:"))
+        	//                        .Select(l => l.Replace("Going:", ""))
+        	//                        .DefaultIfEmpty("None")
+        	//                        .First();
 
 
-            // Results table
-            IList<HtmlNode> selectList = selector.SelectList("table.cnt_txt tr");
-            selectList.RemoveAt(0);
-            int counter = 0;
-            foreach (var htmlNode in selectList)
-            {
+        	//// Results table
+        	//IList<HtmlNode> selectList = selector.SelectList("table.cnt_txt tr");
+        	//selectList.RemoveAt(0);
+        	//int counter = 0;
+        	//foreach (var htmlNode in selectList)
+        	//{
 
-                var result = new BritishHorseRacingHtmlReaderResult
-                {
-                    EventStartTime = eventStartTime,
-                    EventName = eventName,
-                    CourseName = courseName,
-                    Weather = weather,
-                    Going = going
-                };// Ctor should contain code for autofill?
+        	//    var result = new BritishHorseRacingHtmlReaderResult
+        	//    {
+        	//        EventStartTime = eventStartTime,
+        	//        EventName = eventName,
+        	//        CourseName = courseName,
+        	//        Weather = weather,
+        	//        Going = going
+        	//    };// Ctor should contain code for autofill?
 
-                var innerSelector = new HtmlSelector(new StringBuilder(htmlNode.InnerHtml));
-                IList<HtmlNode> cells = innerSelector.SelectList("td");
+        	//    var innerSelector = new HtmlSelector(new StringBuilder(htmlNode.InnerHtml));
+        	//    IList<HtmlNode> cells = innerSelector.SelectList("td");
 
-                if (cells.Count != 4)
-                    continue;
+        	//    if (cells.Count != 4)
+        	//        continue;
 
-                if (string.IsNullOrEmpty(cells[0].InnerHtml) || cells[0].InnerHtml == "&nbsp;")
-                    continue;
-                try
-                {
-                    //Position
-                    int position = int.TryParse(GetResultColA(cells[0]), out position) ? position : -1;
-                    result.Position = position;
-                    //HorseName
-                    result.HorseName = GetResultColA(cells[1]);
+        	//    if (string.IsNullOrEmpty(cells[0].InnerHtml) || cells[0].InnerHtml == "&nbsp;")
+        	//        continue;
+        	//    try
+        	//    {
+        	//        //Position
+        	//        int position = int.TryParse(GetResultColA(cells[0]), out position) ? position : -1;
+        	//        result.Position = position;
+        	//        //HorseName
+        	//        result.HorseName = GetResultColA(cells[1]);
 
-                    //Trainer
-                    result.TrainerName = GetResultColB(cells[1]);
+        	//        //Trainer
+        	//        result.TrainerName = GetResultColB(cells[1]);
 
-                    //Jockey
-                    result.JockeyName = GetResultColA(cells[2]);
+        	//        //Jockey
+        	//        result.JockeyName = GetResultColA(cells[2]);
 
-                    //Weight
-                    result.Weight = GetResultColB(cells[2]);
+        	//        //Weight
+        	//        result.Weight = GetResultColB(cells[2]);
 
-                    //StartingPrice
-                    string spRaw = GetResultColA(cells[3]);
-                    result.ParseFractionsFromString(spRaw, new[] { " - " });
+        	//        //StartingPrice
+        	//        string spRaw = GetResultColA(cells[3]);
+        	//        result.ParseFractionsFromString(spRaw, new[] { " - " });
 
-                    //BeatenDistance
-                    result.BeatenDistance = GetResultColB(cells[3]);
-                }
-                catch (Exception ex)
-                {
-                    throw new HtmlReaderException(string.Format("Could not parse result data at row number {0}", counter), ex, true);
-                }
-                results.Add(result);
-                counter++;
-            }
-            return results;
+        	//        //BeatenDistance
+        	//        result.BeatenDistance = GetResultColB(cells[3]);
+        	//    }
+        	//    catch (Exception ex)
+        	//    {
+        	//        throw new HtmlReaderException(string.Format("Could not parse result data at row number {0}", counter), ex, true);
+        	//    }
+        	//    results.Add(result);
+        	//    counter++;
+        	//}
+        	//return results;
         }
 
         private static string GetResultColA(HtmlNode resultNode)

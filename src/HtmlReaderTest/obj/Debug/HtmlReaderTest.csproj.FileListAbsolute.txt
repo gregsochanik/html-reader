@@ -8,3 +8,16 @@ F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderTest\bin\Debug\Ht
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderTest\bin\Debug\HtmlReader.pdb
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.dll
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\obj\Debug\ResolveAssemblyReference.cache
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\obj\Debug\HtmlReaderTest.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReaderTest.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReaderTest.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Fizzler.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReader.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\nunit.framework.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReaderTest\bin\Debug\Rhino.Mocks.xml

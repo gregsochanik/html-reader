@@ -80,7 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\HtmlReaderException.cs" />
-    <Compile Include="Fizzler\HtmlSelector.cs" />
+    <Compile Include="Fizzler\FluentHtmlSelector.cs" />
+    <Compile Include="Fizzler\HtmlLoader.cs" />
+    <Compile Include="Fizzler\IHtmlSelector.cs" />
+    <Compile Include="Fizzler\IFileLoader.cs" />
+    <Compile Include="Fizzler\IHtmlLoader.cs" />
+    <Compile Include="Fizzler\ISelector.cs" />
     <Compile Include="HtmlReaderBase.cs" />
     <Compile Include="HtmlReaderResults\BritishHorseRacingHtmlReaderResult.cs" />
     <Compile Include="HtmlReaderResults\ItemHtmlSelectorAttribute.cs" />

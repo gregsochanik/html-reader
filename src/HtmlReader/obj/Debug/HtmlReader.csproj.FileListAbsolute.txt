@@ -6,3 +6,12 @@ F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\Fizzle
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\bin\Debug\HtmlAgilityPack.dll
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\obj\Debug\HtmlReader.dll
 F:\Users\Greg\Documents\WORK\sochanik-htmlreader\src\HtmlReader\obj\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\HtmlReader.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\Fizzler.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\Fizzler.Systems.HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\HtmlAgilityPack.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\bin\Debug\PostSharp.Public.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\obj\Debug\ResolveAssemblyReference.cache
+C:\innovationtime\february\HtmlReader\src\HtmlReader\obj\Debug\HtmlReader.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader\obj\Debug\HtmlReader.pdb

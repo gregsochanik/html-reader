@@ -1,0 +1,11 @@
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\HtmlReader.Unit.Tests.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\HtmlReader.Unit.Tests.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\HtmlReader.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\nunit.framework.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\Fizzler.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\HtmlReader.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\obj\Debug\HtmlReader.Unit.Tests.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\obj\Debug\HtmlReader.Unit.Tests.pdb
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\Rhino.Mocks.dll
+C:\innovationtime\february\HtmlReader\src\HtmlReader.Unit.Tests\bin\Debug\Rhino.Mocks.xml
